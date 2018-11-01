@@ -1,0 +1,42 @@
+			.box {
+				position: relative;
+				width: 100%;
+				padding-top: 100%;
+			}
+			
+			.box-content {
+				position: absolute;
+				top:0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				padding-top: calc(50% - 5pt);
+				line-height: 10pt;
+			}
+			
+			.bg-reserved {
+				background-color: rgba(255,0,0,0.55);
+			}
+			
+			.bg-reserving {
+				background-color: rgba(255,255,50,0.55);
+			}
+			
+			.display {
+				border-color: darkgray;
+				animation-name: display-colors-anim;
+				animation-duration: 20s;
+				animation-iteration-count: infinite;
+			}
+			
+			@keyframes display-colors-anim {
+				0% {border-color: darkgray;}
+				20% {border-color: blueviolet;}
+				50% {border-color: darkred;}
+				80% {border-color: yellowgreen;}
+				100% {border-color: darkgray;}
+			}
+			
+			.total {
+				font-size: 20pt;
+			}
