@@ -1,0 +1,46 @@
+.chat-block {
+        background-color: lightgray;
+        border-radius: 5px;
+        border: gray 1px solid; 
+        padding: 1vh;
+      }
+      
+      .messages-block {
+        min-height: 50vh;
+        background-color: white;        
+        padding: 10px;        
+        margin-bottom: 10px;
+      }
+      
+      .message {
+        width: 55%;
+        padding: 6px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+      
+      .message-author {
+        font-weight: bold;        
+      }
+      
+      .message-left {
+        background-color: pink;               
+      }
+      
+      .message-right {
+        float: right;
+        background-color: greenyellow;        
+      }
+      
+      .message-input {      
+        width: calc(100% - 0.6vh);
+        min-height: 60px;
+      }
+      
+      .send-message-btn {
+        padding: 1.5vh;
+        margin-top: 10px;
+        background-color: rgba(255,255,255,0.75);
+        border: solid 1px black;
+        width: 100%;
+      }
